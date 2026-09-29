@@ -11,188 +11,188 @@
   "generatedAt": "2026-08-12T00:00:00Z",
   "files": {
     "media/home-connect.svg": {
-      "sha256": "110367e2a5278ae5d72bc0d6e970928980d7936ebacb063183732aa566193602",
-      "size": 836
+      "sha256": "2f978b2bd1a0ce86177321a2ae610ee9595249c38368078299cc1589202bb66e",
+      "size": 824
     },
     "pages/faq-overview.en.json": {
-      "sha256": "9f7ea276b935bdea33da785af76ff7a85e48b91d00f0e62c01eaf92e646838df",
-      "size": 5983
+      "sha256": "b61854c6067f1a34a79d6eab21835a729ef8bc7cb79b26d3e2a1d43d7fca1cc7",
+      "size": 5829
     },
     "pages/faq-overview.ru.json": {
-      "sha256": "76ae281b16b54c1882ef4d3d333795646e4d8a3445ee7a42cfb9b7c2358beee7",
-      "size": 8737
+      "sha256": "7f7a90a8ae133b2c1d47020714cc74ef79f8157931bf71618f7b8c2eb342e001",
+      "size": 8583
     },
     "pages/hostings-overview.en.json": {
-      "sha256": "02f552110bc1b387c6eac7b580dfa07ae1e97dfef47c4fda286a99591c027d26",
-      "size": 99
+      "sha256": "17cf1e99c91fdf9c8d47669c2a796dc91afd971582b7cce310b577ccd84032bd",
+      "size": 93
     },
     "pages/hostings-overview.ru.json": {
-      "sha256": "8fa98dfa13aaaf6646ed7763acc299ddf388b20beb178ef0e5f90d2b1978c4ba",
-      "size": 107
+      "sha256": "26a074352910b461f07ea5dd62bfe5eaffc608fc44469b3e69784035e1171cac",
+      "size": 101
     },
     "pages/servers-clients.en.json": {
-      "sha256": "9255903b09ae4299ae2990a3108ce9a7a3d206b1a6bfc733437886aee1ce5a61",
-      "size": 126
+      "sha256": "048ace05cf0686f971a0b42f2ee0af99eac24b1c8184100189c9e23b02b573ac",
+      "size": 118
     },
     "pages/servers-clients.ru.json": {
-      "sha256": "1c10367bd1cb30b2c4cf10e4cd3ee37341e0cdd9052b4b6eb0d393a177f476f2",
-      "size": 133
+      "sha256": "ca335ee1b442a3a7ce7749fde79742db30746fc64ea484d2319704325f11becc",
+      "size": 125
     },
     "pages/servers-config.en.json": {
-      "sha256": "2d35c9045e84d76739e6d114757a99c68a0f915323678d6521d5eeb188ef51a5",
-      "size": 138
+      "sha256": "0c425c5688b9228012f43c6ceac65f4c504e7ffd28635b5ef292ba3a678eafbf",
+      "size": 130
     },
     "pages/servers-config.ru.json": {
-      "sha256": "7d98d68da98a04d882545c6eac0b1ef72ca7c58061bc20f85eab30ec86138fd1",
-      "size": 151
+      "sha256": "cfd5cf9ee1373ba6eb9294c31829ac442c4f79169a68a2804cd48eb5b9353439",
+      "size": 143
     },
     "pages/servers-create.en.json": {
-      "sha256": "ef9b7dc0481caecbe75c315a4c2dafae491ada489a79f7c1c6f23be503d2426f",
-      "size": 135
+      "sha256": "1beec58cfc76649bcaf17182e75b43e91f24bc59e5a4fd935aeadea230ea6b13",
+      "size": 127
     },
     "pages/servers-create.ru.json": {
-      "sha256": "894321af2448732d5b611f5d9fb996c2dc14924aa455ac3c71523b6211c03797",
-      "size": 149
+      "sha256": "a3522ac4ee3f184b71b9dfafe6d5cd7002dc5d786208d31e0914477d54ec5d42",
+      "size": 141
     },
     "pages/servers-overview.en.json": {
-      "sha256": "915ca7dfa0a8c60f5fee888055113ba75d19186de8ae2dbfbc3a74ecafc87128",
-      "size": 628
+      "sha256": "cbe7aba07903d08f56a5aa9019a8a7aa4453347337c095ca9582e586c27b73ce",
+      "size": 603
     },
     "pages/servers-overview.ru.json": {
-      "sha256": "a5993777003d92a34f44cb32527fe19afe54c26eda8092536c8d4bc427e0e59b",
-      "size": 669
+      "sha256": "188cc1aa2b893a4d03c2940eebb2a191e6a712d98892587e246bd1992b25bfdd",
+      "size": 644
     },
     "pages/settings-chain.en.json": {
-      "sha256": "b29979bf6f4a377970c64ed067a9a7b822f3a6534441f10f9a1df69934122c1f",
-      "size": 389
+      "sha256": "24fd88519d63175ad14f821396f1b80d73e8429970a371ac82dcc5d7a0c31db7",
+      "size": 370
     },
     "pages/settings-chain.ru.json": {
-      "sha256": "4ca7accdf909b88ef025bc00e1d296aa4d707669919eac1584b2e91f1b8c44c8",
-      "size": 447
+      "sha256": "935443684b02f36ea9ee2737cbe7fc803e8578bc7fa1293f060a5f07bb6a414f",
+      "size": 428
     },
     "pages/settings-dns.en.json": {
-      "sha256": "19848ed15825a24908859c0d44ae34168d441dc3df1b6969adf163ed496becf2",
-      "size": 1652
+      "sha256": "1de444cc9f123903ac6e533dbdbea700369d682827fe1d9afbad0fc6fc129b73",
+      "size": 1578
     },
     "pages/settings-dns.ru.json": {
-      "sha256": "cf82e536b82cafe97aadd1ce7c5e0a9a389be7c2fa92149d02f83ba2c5dbd378",
-      "size": 1809
+      "sha256": "d39a22704d48db4a396e3a703514b8ba484b40ec16a0ea4a3b88012249190d65",
+      "size": 1735
     },
     "pages/settings-general.en.json": {
-      "sha256": "d2c4988db5bbbaf23a8425c58260ba318bd402459cb48a6d063a4d4c8af983e0",
-      "size": 4540
+      "sha256": "fd009db816cf675d274f21b393020fb2d6aa9d3130f902a394a960fe993acd04",
+      "size": 4356
     },
     "pages/settings-general.ru.json": {
-      "sha256": "43be1092d02e694b7dbecfc22393a881232214c89506a136f522a642e56f4cfa",
-      "size": 6742
+      "sha256": "efe49c1870be4636a085c5d59bef4db0cd941fb4cd115fafa3b9aa6e56a60dda",
+      "size": 6525
     },
     "pages/settings-inbound.en.json": {
-      "sha256": "5ed26e192d8310f90eee9e881ec69c8b541794982da531af56f2a9c11081e93e",
-      "size": 3413
+      "sha256": "50f7f4b1ac73576f0504cb3f0398c663f7fdc40e89a2119ba6f57416c7d2e854",
+      "size": 3273
     },
     "pages/settings-inbound.ru.json": {
-      "sha256": "29309b6a8c03c115eaee1f782375f56c4c2d4c3538da2d55e10666add915756c",
-      "size": 4050
+      "sha256": "bb2641371c05ab693337f860d23a6d055d9abc0fe8c919fd7b4406b7f3c96f1e",
+      "size": 3910
     },
     "pages/settings-overview.en.json": {
-      "sha256": "3d8266dce91bbe90896e4963cb95e2408f0d71a3f317e4ccc565c9a689f6656c",
-      "size": 1105
+      "sha256": "b5451c31095aff389624550b521cb7da033d4b5e8008bd606014b5aeb4d233dd",
+      "size": 1062
     },
     "pages/settings-overview.ru.json": {
-      "sha256": "b46a626f26c73939c29bd5a217c28c0401a17f859d0791378d6e3d020fd47320",
-      "size": 1150
+      "sha256": "50beee79fec24613645593214f4b052f377481359cbd6037e0d99a320960fffc",
+      "size": 1107
     },
     "pages/settings-routing.en.json": {
-      "sha256": "e74713b52393a3db1f76c3d4bc6696d22788c090a40d03cc6c06f8859afa375c",
-      "size": 2998
+      "sha256": "ecaae3b7d85e11b14238542f9e1e0280aecd925c303d3116aec593cc1795169b",
+      "size": 2858
     },
     "pages/settings-routing.ru.json": {
-      "sha256": "80ac72ff226305cf708cd4fc5eadffe2240aa3b667bf4571757c89d8108e68f2",
-      "size": 3509
+      "sha256": "94b7a771049afbaa78cb8b043a7a811b70457df65507ec206ed41870bb3b399d",
+      "size": 3369
     },
     "pages/settings-tls-tricks.en.json": {
-      "sha256": "402b8517c6e6aa973e09db18a19164c12380a4a9ca0df0068984fe2f048613d5",
-      "size": 1153
+      "sha256": "7424663c3da10889824ada63bcb882db1ed591d1b80e07cc436dcb87c8f85c4a",
+      "size": 1101
     },
     "pages/settings-tls-tricks.ru.json": {
-      "sha256": "0cb08a221e77b7511b146c1f1afe2e17332385d0f79a411aade55f6a86461abb",
-      "size": 1295
+      "sha256": "b2df3d5c655655b22c55447095129f63e86e7ad998b39e4784835821fa4805e5",
+      "size": 1243
     },
     "pages/settings-warp.en.json": {
-      "sha256": "6b3f5863ac866dab7152db51ca6aa1e0c4a513d16df5c5e4098333def8f61ead",
-      "size": 829
+      "sha256": "a722ce5c2f3ae1413971915ef77aafcfe7c4ac7e6ab41fcf7a8633e97fb44127",
+      "size": 788
     },
     "pages/settings-warp.ru.json": {
-      "sha256": "97b05c8a2f7943cdd3fb6a8e9c4e77bf8216ae52539fb37127508a0d68da059f",
-      "size": 868
+      "sha256": "2d8de1cf05efaa4d87de2c3feb8d39dc1c0ef1adc69e2cb209f27969be1de3ce",
+      "size": 827
     },
     "pages/troubleshooting-ask-help.en.json": {
-      "sha256": "4c56ac6fe41f1abf54b57bc2f4a51cd7669beb3a438553c5d8e6d9ea679b517e",
-      "size": 268
+      "sha256": "55f434b6c9c2eeba7e60b1e7608ccbc22a40a77d4784f42291880f87700e7b06",
+      "size": 257
     },
     "pages/troubleshooting-ask-help.ru.json": {
-      "sha256": "642bcee0d1bf51771a6179eaa79334e0ca7364fa9b66cb98b18ba6b2dc0ed889",
-      "size": 330
+      "sha256": "5c91e3eff3536890e9fa5f20aff5ddcf3f9157f5230df6a70b87532c6aca8362",
+      "size": 319
     },
     "pages/troubleshooting-diagnostics.en.json": {
-      "sha256": "1c1b9715aa16936b6b124459a021a8999cb2f09e42cc31df739c8299e428e8d7",
-      "size": 268
+      "sha256": "89ce65f217e4c0f034f254572ca4f6ace06d0f5f4028a9dacc16dfcc516352fe",
+      "size": 257
     },
     "pages/troubleshooting-diagnostics.ru.json": {
-      "sha256": "291909736706dee630e1a13ca8bf94b73304edd3cf2e316ed0769f60e1e1647b",
-      "size": 332
+      "sha256": "5da482297ed1b985792f4c8ca3603fab2e8ac4048f2c92e96fa6038f819cd99a",
+      "size": 321
     },
     "pages/troubleshooting-overview.en.json": {
-      "sha256": "3c0e51452088bb26c4d74d8de2ee90cf3639ade0b7b0e543b978939c601bb280",
-      "size": 1049
+      "sha256": "496b148e7afabb3df1433cf8f534b028368a9ed716d5cbbf1f3fe7c554b85604",
+      "size": 1012
     },
     "pages/troubleshooting-overview.ru.json": {
-      "sha256": "f61a24a291094291e09e2812275255335fb95ad9a0416a02c5c694effe04d8d8",
-      "size": 1130
+      "sha256": "61a144af4565c932ba6276b390e54b11ea4779a53237c069fe7d8733a342e540",
+      "size": 1093
     },
     "pages/troubleshooting-providers.en.json": {
-      "sha256": "e4db448e2a492e5fd0d2a914cd3f35e44cd6df4d35cdcdc4a0990aac6f84ae81",
-      "size": 248
+      "sha256": "ce9656b2a3b69ea708157bb15b5d4a89f169a7fc0749c26bd95913748cc39b54",
+      "size": 237
     },
     "pages/troubleshooting-providers.ru.json": {
-      "sha256": "7683c3ca89cc5dcc02e172d7f48ec2cc090f25a6b86ad4b09c4ed561da768e56",
-      "size": 358
+      "sha256": "7ef6ce80148abd83e949475c26584a00eb00ff6ae42cb05e4577b5d9a20994e5",
+      "size": 347
     },
     "pages/troubleshooting-vpn-service.en.json": {
-      "sha256": "ca8eced3d17a4b59e606773d6a146d3bb745779504d6237a17c2ec291406d434",
-      "size": 270
+      "sha256": "fdcc0ce699592626b8273b888840ce0565c714d37f2600dc941efc87a412492c",
+      "size": 259
     },
     "pages/troubleshooting-vpn-service.ru.json": {
-      "sha256": "2bde4e4c79ae765acb3133c9511d30f038ac80347b0a4ff554b9fb13e5982aa5",
-      "size": 335
+      "sha256": "5fd4dad7529a2bf4b48322c60c0e047016ca0d1fa4c27973d9427d7164bcb618",
+      "size": 324
     },
     "pages/troubleshooting-vps.en.json": {
-      "sha256": "8b76a1864c11cd0d9ab33124cfc8e6350510a80c2a6370f4770cf43689d4fe6e",
-      "size": 242
+      "sha256": "42935a757c90d0b67ccf5f86819891bc764d15513da3ae04b01816452b76e151",
+      "size": 231
     },
     "pages/troubleshooting-vps.ru.json": {
-      "sha256": "cd2f29ce7a20c2470168a2309605111a77f9441c65e90f36998b30bc84171183",
-      "size": 318
+      "sha256": "2ed709589adeb6741022420db4286140e9c4c363dbbb03c50129f44fc6d5f889",
+      "size": 307
     },
     "pages/welcome-overview.en.json": {
-      "sha256": "92287d041c50d170f26a82d69591d83cd03a27a761bc4aed0c5b96227f9ab500",
-      "size": 3844
+      "sha256": "3f08a7bd9ab9c544bf9b7eaaac97b36099b0a4387211e029855722272ae99042",
+      "size": 3730
     },
     "pages/welcome-overview.ru.json": {
-      "sha256": "5fac7817fc8517f8ff945266e2a74de4f90b9aa3f30f44bbc84a9dcc4b7fb554",
-      "size": 5389
+      "sha256": "7f4f20b1e85848636e7d0c217ff0cb20fcac6ba1653ca58720f3243c6787f6cc",
+      "size": 5275
     },
     "schema/guide-pack.schema.json": {
-      "sha256": "6fa35e8c5eb9d24444d8bd94641378041d4b7a25c9027fda25513fddc9c69ac6",
-      "size": 2682
+      "sha256": "27eaf9f382b8b0bb6d140d7ff47e01297d2936f05dfc1f7a754192697819db28",
+      "size": 2573
     },
     "toc.json": {
-      "sha256": "b5749ad6b326379155d98c632199ef36e4580ad2903a0c8fefbd08941ff9e430",
-      "size": 4915
+      "sha256": "3c3db42de2a7d225b81e56cf5473b27842f179fa802acc791a4d88a283036999",
+      "size": 4758
     },
     "training/hotspots.json": {
-      "sha256": "57aae65b6f3361851515bf61113d0655671b8748b7fc8e36c9f0b45eef8c07fb",
-      "size": 9647
+      "sha256": "a01b568a64ec46c9a068ff9b886fd0cd389ecd4650df120e611cecd9ca666fdd",
+      "size": 9426
     }
   }
 }
