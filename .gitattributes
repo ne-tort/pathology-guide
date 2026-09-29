@@ -1,0 +1,11 @@
+# The client's leaf-based OTA compares sha256 of bundled assets against this
+# repo's raw.githubusercontent.com content. Line endings must therefore be
+# identical everywhere (LF), including Windows checkouts of the submodule.
+*.json text eol=lf
+*.svg text eol=lf
+*.dart text eol=lf
+*.py text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.md text eol=lf
+*.gitkeep text eol=lf
