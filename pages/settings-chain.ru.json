@@ -1,0 +1,19 @@
+{
+  "blocks": [
+    {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Цепочка: какой лист обслуживает трафик каждого участника."
+        }
+      ],
+      "title": "Цепочка",
+      "initiallyExpanded": true,
+      "type": "expandable",
+      "id": "detours"
+    }
+  ],
+  "title": "Цепочка",
+  "id": "settings-chain",
+  "locale": "ru"
+}

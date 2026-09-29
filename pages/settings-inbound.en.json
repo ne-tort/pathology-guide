@@ -1,0 +1,141 @@
+{
+  "blocks": [
+    {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "General app preferences."
+        }
+      ],
+      "title": "",
+      "initiallyExpanded": true,
+      "type": "expandable",
+      "id": "intro",
+      "leadBlock": true
+    },
+    {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "How the app attaches to the network: TUN, system proxy, or local proxy only."
+        }
+      ],
+      "title": "Service mode",
+      "type": "expandable",
+      "id": "service_mode"
+    },
+    {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Virtual network interface used by TUN mode."
+        }
+      ],
+      "title": "TUN",
+      "type": "expandable",
+      "id": "tun"
+    },
+    {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Force all traffic through the tunnel routing table."
+        }
+      ],
+      "title": "Strict route",
+      "type": "expandable",
+      "id": "strict_route"
+    },
+    {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Local HTTP/SOCKS mixed inbound for apps and IP/latency probes."
+        }
+      ],
+      "title": "Mixed port",
+      "type": "expandable",
+      "id": "mixed_port"
+    },
+    {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Transparent proxy listen port (Linux)."
+        }
+      ],
+      "title": "TProxy port",
+      "type": "expandable",
+      "id": "tproxy_port"
+    },
+    {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Redirect inbound port (Linux/macOS)."
+        }
+      ],
+      "title": "Redirect port",
+      "type": "expandable",
+      "id": "redirect_port"
+    },
+    {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Local direct inbound that bypasses the proxy path."
+        }
+      ],
+      "title": "Direct port",
+      "type": "expandable",
+      "id": "direct_port"
+    },
+    {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Username required when LAN sharing is enabled."
+        }
+      ],
+      "title": "Proxy username",
+      "type": "expandable",
+      "id": "proxy_username"
+    },
+    {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Password required when LAN sharing is enabled."
+        }
+      ],
+      "title": "Proxy password",
+      "type": "expandable",
+      "id": "proxy_password"
+    },
+    {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Allow other devices on your LAN to use this app as a proxy (password protected)."
+        }
+      ],
+      "title": "LAN Proxy",
+      "type": "expandable",
+      "id": "lan"
+    },
+    {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Shows whether this device has usable global IPv6. Subscriptions that advertise IPv6 nodes keep those leaves only when the client also has IPv6. The profile ipv6 tag is green when both match, and warning-colored when the server has IPv6 but this device does not."
+        }
+      ],
+      "title": "IPv6",
+      "type": "expandable",
+      "id": "ipv6"
+    }
+  ],
+  "title": "Services",
+  "id": "settings-inbound",
+  "locale": "en"
+}

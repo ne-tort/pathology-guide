@@ -1,0 +1,25 @@
+{
+  "id": "servers-overview",
+  "locale": "ru",
+  "title": "Серверы",
+  "blocks": [
+    {
+      "type": "navTile",
+      "label": "Клиенты",
+      "pageId": "servers-clients",
+      "icon": { "family": "material", "name": "groups_outlined" }
+    },
+    {
+      "type": "navTile",
+      "label": "Создание сервера",
+      "pageId": "servers-create",
+      "icon": { "family": "material", "name": "add_rounded" }
+    },
+    {
+      "type": "navTile",
+      "label": "Настройка сервера",
+      "pageId": "servers-config",
+      "icon": { "family": "material", "name": "settings_outlined" }
+    }
+  ]
+}

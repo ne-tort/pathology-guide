@@ -1,0 +1,11 @@
+{
+  "id": "troubleshooting-diagnostics",
+  "locale": "ru",
+  "title": "Диагностика",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Раздел в подготовке. Здесь появится пошаговая диагностика подключения и сервера."
+    }
+  ]
+}

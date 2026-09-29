@@ -1,0 +1,11 @@
+{
+  "id": "troubleshooting-vpn-service",
+  "locale": "en",
+  "title": "VPN service problems",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "This section is being prepared. Common VPN service issues on the server will appear here."
+    }
+  ]
+}

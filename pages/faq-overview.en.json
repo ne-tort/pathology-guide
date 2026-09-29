@@ -1,0 +1,154 @@
+{
+  "id": "faq-overview",
+  "locale": "en",
+  "title": "Q&A",
+  "blocks": [
+    {
+      "type": "expandable",
+      "title": "What is a VPS?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "VPS is a virtual server. Imagine a computer that sits somewhere very far away and stays on all year. You only need to rent it, install a VPN service on it through the app, and forget about it until it is time to renew payment."
+        }
+      ]
+    },
+    {
+      "type": "expandable",
+      "title": "Where to buy a VPS?",
+      "blocks": [
+        {
+          "type": "richText",
+          "spans": [
+            { "text": "VPS are bought from hosting providers - third-party services not directly related to our app. We recommend buying from hosts on " },
+            { "text": "Our List", "guidePageId": "hostings-overview" },
+            { "text": "; they are selected by different criteria and you will find both cheap options and mid-price hosts there, each with its own pros and cons." }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "expandable",
+      "title": "How to choose a VPS?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Even the cheapest VPS plans are enough to install a VPN service. On average, prices start from 300 rub/month, depending on the plan and host. You only need to check whether that VPS meets your needs."
+        },
+        {
+          "type": "paragraph",
+          "text": "We recommend considering a VPS with bandwidth from 200 mbit/s and a traffic limit from 2 TB (if capped) for private use by 10 people with reasonable consumption. We do not recommend \"VPS for 150 rubles\" offers; often that is not a good idea."
+        }
+      ]
+    },
+    {
+      "type": "expandable",
+      "title": "How to choose a VPS host?",
+      "blocks": [
+        {
+          "type": "richText",
+          "spans": [
+            { "text": "A simple question with many nuances. Take a VPS from any hosting provider and it will run year-round about 99.5% of the time. In our list (" },
+            { "text": "VPS Hostings", "guidePageId": "hostings-overview" },
+            { "text": ") we rated VPS sellers by different metrics. But remember: a miser pays twice, and a fool pays thrice." }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "expandable",
+      "title": "Can a VPS IP be banned?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "They can. But it is fairly rare — if you use the VPS only for family and friends, you usually do not need to worry about it."
+        },
+        {
+          "type": "callout",
+          "severity": "warning",
+          "text": "",
+          "spans": [
+            { "text": "Cheap hosting providers may face a whole subnet being blocked in your country — and your VPS may sit on that subnet. You can also buy a VPS whose IP is already blocked or in a blocked subnet for your country. In that case, contact the host's support and ask them to change the IP, or do it yourself from the VPS control panel if available. It may cost extra. Sometimes the better option is to consider " },
+            { "text": "another provider", "guidePageId": "hostings-overview" },
+            { "text": " with better service quality." }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "expandable",
+      "title": "Do you collect data?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "No, we do not collect any data. The app does not collect statistics, does not send metrics, and does not even steal your SSH credentials!"
+        }
+      ]
+    },
+    {
+      "type": "expandable",
+      "title": "Keep SSH credentials in the app?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Yes, if you want to install and maintain the VPS from the app (install, reinstall, restart the container, reboot). Credentials stay on the device in secure storage and are not uploaded anywhere."
+        },
+        {
+          "type": "paragraph",
+          "text": "After a successful install the app creates on the VPS a limited-privilege sbxop account and uses it in the app. It is enough for comfortable service management. Your root SSH credentials are not stored in the app."
+        }
+      ]
+    },
+    {
+      "type": "expandable",
+      "title": "Which protocols should I choose?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Our app supports many modern protocols for free internet access, including both best-in-class solutions and exotic ones meant to confuse the adversary."
+        },
+        {
+          "type": "callout",
+          "severity": "info",
+          "text": "Best set:\n1. vless reality xtls vision - quality standard, best camouflage as legitimate traffic\n2. Hysteria2 - excellent choice, quic channel with obfuscation\n3. Pathology - our development. A flexible protocol that can use many different techniques"
+        }
+      ]
+    },
+    {
+      "type": "expandable",
+      "title": "Which protocols does Pathalogy client support?",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "VLESS",
+            "Pathology",
+            "PathologyWG",
+            "NaiveProxy",
+            "TrustTunnel",
+            "Trojan",
+            "AnyTLS",
+            "ShadowTLS",
+            "Hysteria2",
+            "ShadowQUIC",
+            "TUIC",
+            "Carrier",
+            "VMess",
+            "MASQUE",
+            "WireGuard",
+            "AmneziaWG v2\\v3",
+            "Shadowsocks",
+            "Mieru",
+            "Sudoku",
+            "SSH",
+            "Snell",
+            "Hysteria",
+            "DERP",
+            "OpenConnect / OpenVPN"
+          ]
+        }
+      ]
+    }
+  ]
+}

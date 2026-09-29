@@ -1,0 +1,141 @@
+{
+  "blocks": [
+    {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Routing and traffic policy."
+        }
+      ],
+      "title": "",
+      "initiallyExpanded": true,
+      "type": "expandable",
+      "id": "intro",
+      "leadBlock": true
+    },
+    {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Routing profiles and their order."
+        }
+      ],
+      "title": "Profiles",
+      "type": "expandable",
+      "id": "profiles"
+    },
+    {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Named address sets used by routing rules."
+        }
+      ],
+      "title": "Tags",
+      "type": "expandable",
+      "id": "tags"
+    },
+    {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Per-app routing on Android."
+        }
+      ],
+      "title": "Apps",
+      "type": "expandable",
+      "id": "apps"
+    },
+    {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Per-process routing on desktop."
+        }
+      ],
+      "title": "Processes",
+      "type": "expandable",
+      "id": "processes"
+    },
+    {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "How traffic is spread across exits."
+        }
+      ],
+      "title": "Balancer",
+      "type": "expandable",
+      "id": "balancer"
+    },
+    {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "IPv6 preference for routed connections."
+        }
+      ],
+      "title": "IPv6",
+      "type": "expandable",
+      "id": "ipv6"
+    },
+    {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Send remaining traffic through the proxy."
+        }
+      ],
+      "title": "Rest → proxy",
+      "type": "expandable",
+      "id": "global_proxy"
+    },
+    {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Use route rules from the subscription when present."
+        }
+      ],
+      "title": "Subscription rules",
+      "type": "expandable",
+      "id": "subscription_route"
+    },
+    {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Do not proxy LAN destinations."
+        }
+      ],
+      "title": "Bypass LAN",
+      "type": "expandable",
+      "id": "bypass_lan"
+    },
+    {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Block QUIC to force TCP/TLS paths."
+        }
+      ],
+      "title": "Block QUIC",
+      "type": "expandable",
+      "id": "block_quic"
+    },
+    {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Block known ad domains via rulesets."
+        }
+      ],
+      "title": "Block ads",
+      "type": "expandable",
+      "id": "block_ads"
+    }
+  ],
+  "title": "Routing",
+  "id": "settings-routing",
+  "locale": "en"
+}

@@ -1,0 +1,114 @@
+{
+  "id": "welcome-overview",
+  "locale": "en",
+  "title": "Quick start",
+  "blocks": [
+    {
+      "type": "expandable",
+      "id": "quick_start",
+      "leadBlock": true,
+      "title": "",
+      "initiallyExpanded": true,
+      "blocks": [
+        {
+          "type": "richText",
+          "spans": [
+            { "text": "Open " },
+            { "text": "VPS Hostings", "guidePageId": "hostings-overview" },
+            { "text": " and follow the steps:" }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Pick any host you like",
+            "Follow its link",
+            "Sign up",
+            "Buy a VPS",
+            "Come back here"
+          ]
+        },
+        {
+          "type": "callout",
+          "severity": "info",
+          "text": "Usually even the cheapest VPS plan is enough for you, family, and friends!"
+        },
+        {
+          "type": "richText",
+          "spans": [
+            { "text": "Get SSH credentials: IP address | login | password → Enter them on the " },
+            {
+              "text": "create-server page",
+              "routeName": "serverPage",
+              "pathParameters": { "id": "new" }
+            },
+            { "text": " or in the fields below → Tap Install!" }
+          ]
+        },
+        {
+          "type": "interactive",
+          "id": "serverCreateInstall"
+        },
+        {
+          "type": "richText",
+          "spans": [
+            { "text": "Installed? You are amazing!", "bold": true, "color": "success" },
+            { "text": " You can connect right away from the " },
+            { "text": "home screen", "routeName": "home" },
+            { "text": ", or configure the VPN server however you like!" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "expandable",
+      "title": "Hand in hand — to the result",
+      "icon": { "family": "material", "name": "handshake_outlined" },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Don't worry — this simple guide will get you there easily."
+        }
+      ]
+    },
+    {
+      "type": "expandable",
+      "title": "Share and multiply!",
+      "icon": { "family": "material", "name": "groups_outlined" },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "After installing the VPN service you can use it yourself and share it with others. Create separate users in the server settings and set flexible limits. One VPN server is enough for 10–50 people!"
+        },
+        {
+          "type": "callout",
+          "severity": "warning",
+          "text": "P.S. But only if you follow the laws of your countries!"
+        }
+      ]
+    },
+    {
+      "type": "expandable",
+      "title": "Our monetization",
+      "icon": { "family": "material", "name": "favorite" },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "We do not sell VPN as a service. Our monetization is hosting referral programs that we recommend via our links. Buying VPS servers through our link does not make the service more expensive for you. From each of your purchases we get tips of 0.5-1$. That lets us earn and keep developing Pathology, add, update, and even create new protocols."
+        }
+      ]
+    },
+    {
+      "type": "expandable",
+      "title": "Paid VPN?",
+      "icon": { "family": "material", "name": "attach_money" },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Paid services sell VPN for 200-300 rubles/month per person, using one VPS server for dozens of clients and limiting their internet speed. Now you decide who gets access and which limits to apply!"
+        }
+      ]
+    }
+  ]
+}

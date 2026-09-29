@@ -1,0 +1,141 @@
+{
+  "blocks": [
+    {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Общие настройки приложения."
+        }
+      ],
+      "title": "",
+      "initiallyExpanded": true,
+      "type": "expandable",
+      "id": "intro",
+      "leadBlock": true
+    },
+    {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Как приложение подключается к сети: TUN, системный прокси или только локальный прокси."
+        }
+      ],
+      "title": "Режим службы",
+      "type": "expandable",
+      "id": "service_mode"
+    },
+    {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Виртуальный сетевой интерфейс режима TUN."
+        }
+      ],
+      "title": "TUN",
+      "type": "expandable",
+      "id": "tun"
+    },
+    {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Принудительно направлять трафик через таблицу маршрутизации туннеля."
+        }
+      ],
+      "title": "Strict route",
+      "type": "expandable",
+      "id": "strict_route"
+    },
+    {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Локальный HTTP/SOCKS inbound для приложений и проверок IP/задержки."
+        }
+      ],
+      "title": "Порт mixed",
+      "type": "expandable",
+      "id": "mixed_port"
+    },
+    {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Порт transparent proxy (Linux)."
+        }
+      ],
+      "title": "Порт TProxy",
+      "type": "expandable",
+      "id": "tproxy_port"
+    },
+    {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Порт redirect inbound (Linux/macOS)."
+        }
+      ],
+      "title": "Порт redirect",
+      "type": "expandable",
+      "id": "redirect_port"
+    },
+    {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Локальный direct inbound в обход прокси."
+        }
+      ],
+      "title": "Порт direct",
+      "type": "expandable",
+      "id": "direct_port"
+    },
+    {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Имя пользователя при раздаче прокси в LAN."
+        }
+      ],
+      "title": "Имя пользователя прокси",
+      "type": "expandable",
+      "id": "proxy_username"
+    },
+    {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Пароль при раздаче прокси в LAN."
+        }
+      ],
+      "title": "Пароль прокси",
+      "type": "expandable",
+      "id": "proxy_password"
+    },
+    {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Разрешить устройствам в LAN использовать приложение как прокси (с паролем)."
+        }
+      ],
+      "title": "LAN Прокси",
+      "type": "expandable",
+      "id": "lan"
+    },
+    {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Показывает, есть ли на этом устройстве рабочий глобальный IPv6. В подписках с IPv6-узлами такие узлы остаются только если IPv6 есть и у клиента. Тег ipv6 на профиле зелёный, когда совпадают обе стороны, и warning — когда IPv6 есть у сервера, но не на этом устройстве."
+        }
+      ],
+      "title": "IPv6",
+      "type": "expandable",
+      "id": "ipv6"
+    }
+  ],
+  "title": "Службы",
+  "id": "settings-inbound",
+  "locale": "ru"
+}

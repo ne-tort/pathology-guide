@@ -1,0 +1,11 @@
+{
+  "id": "troubleshooting-vps",
+  "locale": "ru",
+  "title": "Проблемы VPS",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Раздел в подготовке. Здесь появятся типичные проблемы с VPS и способы их решения."
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "troubleshooting-vps",
+  "locale": "en",
+  "title": "VPS problems",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "This section is being prepared. Common VPS issues and fixes will appear here."
+    }
+  ]
+}

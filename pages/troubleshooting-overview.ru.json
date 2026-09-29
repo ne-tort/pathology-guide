@@ -1,0 +1,37 @@
+{
+  "id": "troubleshooting-overview",
+  "locale": "ru",
+  "title": "Не работает!",
+  "blocks": [
+    {
+      "type": "navTile",
+      "label": "Диагностика",
+      "pageId": "troubleshooting-diagnostics",
+      "icon": { "family": "material", "name": "troubleshoot_outlined" }
+    },
+    {
+      "type": "navTile",
+      "label": "Проблемы VPS",
+      "pageId": "troubleshooting-vps",
+      "icon": { "family": "material", "name": "dns_outlined" }
+    },
+    {
+      "type": "navTile",
+      "label": "Проблемы провайдеров",
+      "pageId": "troubleshooting-providers",
+      "icon": { "family": "material", "name": "cell_tower" }
+    },
+    {
+      "type": "navTile",
+      "label": "Проблемы VPN сервиса",
+      "pageId": "troubleshooting-vpn-service",
+      "icon": { "family": "material", "name": "vpn_key_outlined" }
+    },
+    {
+      "type": "navTile",
+      "label": "Попросить помощи",
+      "pageId": "troubleshooting-ask-help",
+      "icon": { "family": "material", "name": "support_agent" }
+    }
+  ]
+}

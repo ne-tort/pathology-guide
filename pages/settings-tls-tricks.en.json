@@ -1,0 +1,53 @@
+{
+  "blocks": [
+    {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "General app preferences."
+        }
+      ],
+      "title": "",
+      "initiallyExpanded": true,
+      "type": "expandable",
+      "id": "intro",
+      "leadBlock": true
+    },
+    {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Split TLS records to hinder simple DPI."
+        }
+      ],
+      "title": "Record fragment",
+      "type": "expandable",
+      "id": "record_fragment"
+    },
+    {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Fragment TLS ClientHello packets."
+        }
+      ],
+      "title": "Packet fragment",
+      "type": "expandable",
+      "id": "packet_fragment"
+    },
+    {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "How long to wait before falling back when fragmentation is used."
+        }
+      ],
+      "title": "Fallback delay",
+      "type": "expandable",
+      "id": "fallback_delay"
+    }
+  ],
+  "title": "TLS tricks",
+  "id": "settings-tls-tricks",
+  "locale": "en"
+}

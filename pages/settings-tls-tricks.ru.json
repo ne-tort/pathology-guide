@@ -1,0 +1,53 @@
+{
+  "blocks": [
+    {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Общие настройки приложения."
+        }
+      ],
+      "title": "",
+      "initiallyExpanded": true,
+      "type": "expandable",
+      "id": "intro",
+      "leadBlock": true
+    },
+    {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Дробить TLS-записи, чтобы мешать простому DPI."
+        }
+      ],
+      "title": "Фрагментация записей",
+      "type": "expandable",
+      "id": "record_fragment"
+    },
+    {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Фрагментировать TLS ClientHello."
+        }
+      ],
+      "title": "Фрагментация пакетов",
+      "type": "expandable",
+      "id": "packet_fragment"
+    },
+    {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Пауза перед fallback при фрагментации."
+        }
+      ],
+      "title": "Задержка fallback",
+      "type": "expandable",
+      "id": "fallback_delay"
+    }
+  ],
+  "title": "TLS-трюки",
+  "id": "settings-tls-tricks",
+  "locale": "ru"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "troubleshooting-vpn-service",
+  "locale": "ru",
+  "title": "Проблемы VPN сервиса",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Раздел в подготовке. Здесь появятся типичные проблемы VPN сервиса на сервере."
+    }
+  ]
+}

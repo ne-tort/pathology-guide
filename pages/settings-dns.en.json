@@ -1,0 +1,75 @@
+{
+  "blocks": [
+    {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "General app preferences."
+        }
+      ],
+      "title": "",
+      "initiallyExpanded": true,
+      "type": "expandable",
+      "id": "intro",
+      "leadBlock": true
+    },
+    {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "DNS used for names resolved through the proxy / remote path."
+        }
+      ],
+      "title": "Remote DNS",
+      "type": "expandable",
+      "id": "remote"
+    },
+    {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "DNS used for direct / bypass traffic."
+        }
+      ],
+      "title": "Direct DNS",
+      "type": "expandable",
+      "id": "direct"
+    },
+    {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Whether the subscription may supply its own DNS settings."
+        }
+      ],
+      "title": "Subscription DNS",
+      "type": "expandable",
+      "id": "subscription"
+    },
+    {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Intercept DNS queries so they follow app DNS rules."
+        }
+      ],
+      "title": "DNS Hijack",
+      "type": "expandable",
+      "id": "hijack"
+    },
+    {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Answer DNS locally with fake IPs mapped to real hosts (advanced)."
+        }
+      ],
+      "title": "Enable FakeDNS",
+      "type": "expandable",
+      "id": "fakedns"
+    }
+  ],
+  "title": "DNS",
+  "id": "settings-dns",
+  "locale": "en"
+}

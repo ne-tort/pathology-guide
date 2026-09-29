@@ -1,0 +1,218 @@
+{
+  "blocks": [
+    {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Общие настройки приложения."
+        }
+      ],
+      "title": "",
+      "initiallyExpanded": true,
+      "type": "expandable",
+      "id": "intro",
+      "leadBlock": true
+    },
+    {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Язык интерфейса приложения. Смена языка применяется сразу."
+        }
+      ],
+      "title": "Язык",
+      "type": "expandable",
+      "id": "locale"
+    },
+    {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Светлая, тёмная, чёрная или системная тема оформления."
+        }
+      ],
+      "title": "Тема",
+      "type": "expandable",
+      "id": "theme"
+    },
+    {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Что делать при закрытии окна: выход, в трей или спросить."
+        }
+      ],
+      "title": "При закрытии",
+      "type": "expandable",
+      "id": "closing"
+    },
+    {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Подробность логов ядра и приложения."
+        }
+      ],
+      "title": "Уровень логов",
+      "type": "expandable",
+      "id": "log_level"
+    },
+    {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Как часто в фоне обновляются все обновляемые профили/подписки. «Вручную» — только по кнопке обновления."
+        }
+      ],
+      "title": "Обновление подписок",
+      "type": "expandable",
+      "id": "subscriptions_auto_update"
+    },
+    {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Каталог проверки задержки: несколько URL, стратегия (один / быстрое среднее / стресс), повторы, таймауты, пауза после подключения и интервал url-test. Пустой выбор отключает проверки."
+        }
+      ],
+      "title": "Проверка задержки",
+      "type": "expandable",
+      "id": "connection_test"
+    },
+    {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Каталог проверки IP: несколько сервисов, стратегия по одному или параллельно, повторы и таймауты. Пустой выбор отключает автопроверку IP после подключения."
+        }
+      ],
+      "title": "Проверка IP",
+      "type": "expandable",
+      "id": "ip_check"
+    },
+    {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Показывать скорость в уведомлении Android."
+        }
+      ],
+      "title": "Отображать скорость в уведомлении",
+      "type": "expandable",
+      "id": "dynamic_notification"
+    },
+    {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Тактильный отклик на ключевые действия."
+        }
+      ],
+      "title": "Тактильный отклик",
+      "type": "expandable",
+      "id": "haptic"
+    },
+    {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Запускать приложение при входе в систему."
+        }
+      ],
+      "title": "Запускать при входе в систему",
+      "type": "expandable",
+      "id": "auto_start"
+    },
+    {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Запускать свёрнутым / в трее."
+        }
+      ],
+      "title": "Запускать свернутым",
+      "type": "expandable",
+      "id": "silent_start"
+    },
+    {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Не загружать pathology-core до первого подключения или теста пинга — меньше RAM в простое."
+        }
+      ],
+      "title": "Холодное ядро",
+      "type": "expandable",
+      "id": "cold_core"
+    },
+    {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Ядро и tray в PathologyCli; скрытие окна закрывает UI, VPN остаётся в Host. Нужен перезапуск."
+        }
+      ],
+      "title": "Субпроцесс ядра",
+      "type": "expandable",
+      "id": "core_subprocess"
+    },
+    {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "При автозапуске ОС подключать VPN после входа (только если включён «Запускать при входе»)."
+        }
+      ],
+      "title": "Подключаться к VPN при входе",
+      "type": "expandable",
+      "id": "auto_connect_on_login"
+    },
+    {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Отключить оптимизацию батареи Android для стабильного VPN."
+        }
+      ],
+      "title": "Отключить оптимизацию батареи",
+      "type": "expandable",
+      "id": "battery"
+    },
+    {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Ограничить память ядра на слабых устройствах."
+        }
+      ],
+      "title": "Ограничение памяти",
+      "type": "expandable",
+      "id": "memory_limit"
+    },
+    {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Доп. диагностика; может потребовать перезапуск."
+        }
+      ],
+      "title": "Режим отладки",
+      "type": "expandable",
+      "id": "debug_mode"
+    },
+    {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Писать логи в файлы рабочей папки."
+        }
+      ],
+      "title": "Логи в файл",
+      "type": "expandable",
+      "id": "log_file"
+    }
+  ],
+  "title": "Общие",
+  "id": "settings-general",
+  "locale": "ru"
+}

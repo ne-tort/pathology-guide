@@ -1,0 +1,42 @@
+{
+  "blocks": [
+    {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Общие настройки приложения."
+        }
+      ],
+      "title": "",
+      "initiallyExpanded": true,
+      "type": "expandable",
+      "id": "intro",
+      "leadBlock": true
+    },
+    {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Cloudflare WARP через MASQUE / HTTP3."
+        }
+      ],
+      "title": "MASQUE",
+      "type": "expandable",
+      "id": "masque"
+    },
+    {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Cloudflare WARP через WireGuard."
+        }
+      ],
+      "title": "WireGuard",
+      "type": "expandable",
+      "id": "wireguard"
+    }
+  ],
+  "title": "WARP",
+  "id": "settings-warp",
+  "locale": "ru"
+}

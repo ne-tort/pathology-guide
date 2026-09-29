@@ -1,0 +1,11 @@
+{
+  "id": "troubleshooting-ask-help",
+  "locale": "en",
+  "title": "Ask for help",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "This section is being prepared. Support channels and what to include in a report will appear here."
+    }
+  ]
+}

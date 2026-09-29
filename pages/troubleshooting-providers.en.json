@@ -1,0 +1,11 @@
+{
+  "id": "troubleshooting-providers",
+  "locale": "en",
+  "title": "Provider problems",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "This section is being prepared. Common ISP-side issues will appear here."
+    }
+  ]
+}

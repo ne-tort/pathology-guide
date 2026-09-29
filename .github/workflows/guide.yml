@@ -1,0 +1,61 @@
+name: guide
+
+# Content pipeline for the Pathology in-app guide pack.
+#
+# Every push to main is validated and the per-leaf `files` map in
+# manifest.json is regenerated (sha256/size of each leaf). The client's
+# leaf-based OTA reads raw files from this repo's main branch and downloads
+# only the leaves whose hash changed, so the manifest must always be in sync
+# with the content. A `guide-v<version>` tag is cut when the pack version
+# changes, for history.
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  validate-and-manifest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          # The manifest auto-commit below must be able to push.
+          persist-credentials: true
+
+      - uses: dart-lang/setup-dart@v1
+        with:
+          sdk: stable
+
+      - name: Validate pack
+        run: dart run tool/guide_validate.dart .
+
+      - name: Regenerate manifest files map
+        run: python3 tool/guide_manifest.py
+
+      - name: Commit refreshed manifest
+        run: |
+          git config user.name "pathology-guide-bot"
+          git config user.email "actions@users.noreply.github.com"
+          if git diff --quiet -- manifest.json; then
+            echo "manifest.json is up to date"
+          else
+            git add manifest.json
+            git commit -m "chore: refresh manifest files map [skip ci]"
+            git push
+          fi
+
+      - name: Tag pack version
+        run: |
+          VERSION="$(python3 -c "import json; print(json.load(open('manifest.json'))['version'])")"
+          TAG="guide-v${VERSION}"
+          if git rev-parse -q --verify "refs/tags/${TAG}" >/dev/null; then
+            echo "tag ${TAG} already exists"
+          else
+            git tag "${TAG}"
+            git push origin "${TAG}"
+          fi

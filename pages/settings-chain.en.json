@@ -1,0 +1,19 @@
+{
+  "blocks": [
+    {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Chain exit: which leaf handles traffic for each member outbound."
+        }
+      ],
+      "title": "Detours",
+      "initiallyExpanded": true,
+      "type": "expandable",
+      "id": "detours"
+    }
+  ],
+  "title": "Chain",
+  "id": "settings-chain",
+  "locale": "en"
+}

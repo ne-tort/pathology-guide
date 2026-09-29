@@ -1,0 +1,75 @@
+{
+  "blocks": [
+    {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Общие настройки приложения."
+        }
+      ],
+      "title": "",
+      "initiallyExpanded": true,
+      "type": "expandable",
+      "id": "intro",
+      "leadBlock": true
+    },
+    {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "DNS для имён, резолвящихся через прокси / remote."
+        }
+      ],
+      "title": "Remote DNS",
+      "type": "expandable",
+      "id": "remote"
+    },
+    {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "DNS для прямого / bypass трафика."
+        }
+      ],
+      "title": "Direct DNS",
+      "type": "expandable",
+      "id": "direct"
+    },
+    {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Может ли подписка задавать свои DNS-настройки."
+        }
+      ],
+      "title": "DNS Подписки",
+      "type": "expandable",
+      "id": "subscription"
+    },
+    {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Перехватывать DNS-запросы по правилам приложения."
+        }
+      ],
+      "title": "Перехват DNS",
+      "type": "expandable",
+      "id": "hijack"
+    },
+    {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Локальные fake-IP с привязкой к реальным хостам (advanced)."
+        }
+      ],
+      "title": "FakeDNS",
+      "type": "expandable",
+      "id": "fakedns"
+    }
+  ],
+  "title": "DNS",
+  "id": "settings-dns",
+  "locale": "ru"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "settings-overview",
+  "locale": "ru",
+  "title": "Настройки",
+  "blocks": [
+    {
+      "type": "navTile",
+      "label": "Общие",
+      "pageId": "settings-general",
+      "icon": { "family": "material", "name": "layers_rounded" }
+    },
+    {
+      "type": "navTile",
+      "label": "Маршрутизация",
+      "pageId": "settings-routing",
+      "icon": { "family": "material", "name": "route_rounded" }
+    },
+    {
+      "type": "navTile",
+      "label": "DNS",
+      "pageId": "settings-dns",
+      "icon": { "family": "material", "name": "dns_outlined" }
+    },
+    {
+      "type": "navTile",
+      "label": "Службы",
+      "pageId": "settings-inbound",
+      "icon": { "family": "material", "name": "input_rounded" }
+    },
+    {
+      "type": "navTile",
+      "label": "Цепочка",
+      "pageId": "settings-chain",
+      "icon": { "family": "material", "name": "widgets_outlined" }
+    },
+    {
+      "type": "navTile",
+      "label": "WARP",
+      "pageId": "settings-warp",
+      "icon": { "family": "material", "name": "cloud_outlined" }
+    }
+  ]
+}

@@ -1,0 +1,221 @@
+{
+  "schemaVersion": 1,
+  "hotspots": [
+    {
+      "anchorId": "home.connect_button",
+      "action": { "kind": "openGuidePage", "pageId": "welcome-overview" },
+      "tooltip": { "en": "Quick start", "ru": "Быстрый старт" }
+    },
+    {
+      "anchorId": "settings.guide_tile",
+      "action": { "kind": "openGuidePage", "pageId": "welcome-overview" },
+      "tooltip": { "en": "Quick start", "ru": "Быстрый старт" }
+    },
+    { "anchorId": "settings.general", "action": { "kind": "openGuidePage", "pageId": "settings-general" } },
+    { "anchorId": "settings.routing", "action": { "kind": "openGuidePage", "pageId": "settings-routing" } },
+    { "anchorId": "settings.dns", "action": { "kind": "openGuidePage", "pageId": "settings-dns" } },
+    { "anchorId": "settings.inbound", "action": { "kind": "openGuidePage", "pageId": "settings-inbound" } },
+    { "anchorId": "settings.tls_tricks", "action": { "kind": "openGuidePage", "pageId": "settings-tls-tricks" } },
+    { "anchorId": "settings.chain", "action": { "kind": "openGuidePage", "pageId": "settings-chain" } },
+    { "anchorId": "settings.warp", "action": { "kind": "openGuidePage", "pageId": "settings-warp" } },
+    { "anchorId": "settings.servers", "action": { "kind": "openGuidePage", "pageId": "servers-overview" } },
+    {
+      "anchorId": "settings.general.locale",
+      "action": { "kind": "openGuidePage", "pageId": "settings-general", "expandableId": "locale" }
+    },
+    {
+      "anchorId": "settings.general.theme",
+      "action": { "kind": "openGuidePage", "pageId": "settings-general", "expandableId": "theme" }
+    },
+    {
+      "anchorId": "settings.general.closing",
+      "action": { "kind": "openGuidePage", "pageId": "settings-general", "expandableId": "closing" }
+    },
+    {
+      "anchorId": "settings.general.log_level",
+      "action": { "kind": "openGuidePage", "pageId": "settings-general", "expandableId": "log_level" }
+    },
+    {
+      "anchorId": "settings.general.connection_test",
+      "action": { "kind": "openGuidePage", "pageId": "settings-general", "expandableId": "connection_test" }
+    },
+    {
+      "anchorId": "settings.general.ip_check",
+      "action": { "kind": "openGuidePage", "pageId": "settings-general", "expandableId": "ip_check" }
+    },
+    {
+      "anchorId": "settings.general.dynamic_notification",
+      "action": { "kind": "openGuidePage", "pageId": "settings-general", "expandableId": "dynamic_notification" }
+    },
+    {
+      "anchorId": "settings.general.haptic",
+      "action": { "kind": "openGuidePage", "pageId": "settings-general", "expandableId": "haptic" }
+    },
+    {
+      "anchorId": "settings.general.auto_start",
+      "action": { "kind": "openGuidePage", "pageId": "settings-general", "expandableId": "auto_start" }
+    },
+    {
+      "anchorId": "settings.general.silent_start",
+      "action": { "kind": "openGuidePage", "pageId": "settings-general", "expandableId": "silent_start" }
+    },
+    {
+      "anchorId": "settings.general.battery",
+      "action": { "kind": "openGuidePage", "pageId": "settings-general", "expandableId": "battery" }
+    },
+    {
+      "anchorId": "settings.general.memory_limit",
+      "action": { "kind": "openGuidePage", "pageId": "settings-general", "expandableId": "memory_limit" }
+    },
+    {
+      "anchorId": "settings.general.debug_mode",
+      "action": { "kind": "openGuidePage", "pageId": "settings-general", "expandableId": "debug_mode" }
+    },
+    {
+      "anchorId": "settings.general.log_file",
+      "action": { "kind": "openGuidePage", "pageId": "settings-general", "expandableId": "log_file" }
+    },
+    {
+      "anchorId": "settings.inbound.service_mode",
+      "action": { "kind": "openGuidePage", "pageId": "settings-inbound", "expandableId": "service_mode" }
+    },
+    {
+      "anchorId": "settings.inbound.tun",
+      "action": { "kind": "openGuidePage", "pageId": "settings-inbound", "expandableId": "tun" }
+    },
+    {
+      "anchorId": "settings.inbound.strict_route",
+      "action": { "kind": "openGuidePage", "pageId": "settings-inbound", "expandableId": "strict_route" }
+    },
+    {
+      "anchorId": "settings.inbound.mixed_port",
+      "action": { "kind": "openGuidePage", "pageId": "settings-inbound", "expandableId": "mixed_port" }
+    },
+    {
+      "anchorId": "settings.inbound.tproxy_port",
+      "action": { "kind": "openGuidePage", "pageId": "settings-inbound", "expandableId": "tproxy_port" }
+    },
+    {
+      "anchorId": "settings.inbound.redirect_port",
+      "action": { "kind": "openGuidePage", "pageId": "settings-inbound", "expandableId": "redirect_port" }
+    },
+    {
+      "anchorId": "settings.inbound.direct_port",
+      "action": { "kind": "openGuidePage", "pageId": "settings-inbound", "expandableId": "direct_port" }
+    },
+    {
+      "anchorId": "settings.inbound.proxy_username",
+      "action": { "kind": "openGuidePage", "pageId": "settings-inbound", "expandableId": "proxy_username" }
+    },
+    {
+      "anchorId": "settings.inbound.proxy_password",
+      "action": { "kind": "openGuidePage", "pageId": "settings-inbound", "expandableId": "proxy_password" }
+    },
+    {
+      "anchorId": "settings.inbound.lan",
+      "action": { "kind": "openGuidePage", "pageId": "settings-inbound", "expandableId": "lan" }
+    },
+    {
+      "anchorId": "settings.inbound.ipv6",
+      "action": { "kind": "openGuidePage", "pageId": "settings-inbound", "expandableId": "ipv6" }
+    },
+    {
+      "anchorId": "settings.dns.remote",
+      "action": { "kind": "openGuidePage", "pageId": "settings-dns", "expandableId": "remote" }
+    },
+    {
+      "anchorId": "settings.dns.direct",
+      "action": { "kind": "openGuidePage", "pageId": "settings-dns", "expandableId": "direct" }
+    },
+    {
+      "anchorId": "settings.dns.subscription",
+      "action": { "kind": "openGuidePage", "pageId": "settings-dns", "expandableId": "subscription" }
+    },
+    {
+      "anchorId": "settings.dns.hijack",
+      "action": { "kind": "openGuidePage", "pageId": "settings-dns", "expandableId": "hijack" }
+    },
+    {
+      "anchorId": "settings.dns.fakedns",
+      "action": { "kind": "openGuidePage", "pageId": "settings-dns", "expandableId": "fakedns" }
+    },
+    {
+      "anchorId": "settings.tls.record_fragment",
+      "action": { "kind": "openGuidePage", "pageId": "settings-tls-tricks", "expandableId": "record_fragment" }
+    },
+    {
+      "anchorId": "settings.tls.packet_fragment",
+      "action": { "kind": "openGuidePage", "pageId": "settings-tls-tricks", "expandableId": "packet_fragment" }
+    },
+    {
+      "anchorId": "settings.tls.fallback_delay",
+      "action": { "kind": "openGuidePage", "pageId": "settings-tls-tricks", "expandableId": "fallback_delay" }
+    },
+    {
+      "anchorId": "settings.warp.masque",
+      "action": { "kind": "openGuidePage", "pageId": "settings-warp", "expandableId": "masque" }
+    },
+    {
+      "anchorId": "settings.warp.wireguard",
+      "action": { "kind": "openGuidePage", "pageId": "settings-warp", "expandableId": "wireguard" }
+    },
+    {
+      "anchorId": "settings.chain.detours",
+      "action": { "kind": "openGuidePage", "pageId": "settings-chain", "expandableId": "detours" }
+    },
+    {
+      "anchorId": "settings.routing.profiles",
+      "action": { "kind": "openGuidePage", "pageId": "settings-routing", "expandableId": "profiles" }
+    },
+    {
+      "anchorId": "settings.routing.tags",
+      "action": { "kind": "openGuidePage", "pageId": "settings-routing", "expandableId": "tags" }
+    },
+    {
+      "anchorId": "settings.routing.apps",
+      "action": { "kind": "openGuidePage", "pageId": "settings-routing", "expandableId": "apps" }
+    },
+    {
+      "anchorId": "settings.routing.processes",
+      "action": { "kind": "openGuidePage", "pageId": "settings-routing", "expandableId": "processes" }
+    },
+    {
+      "anchorId": "settings.routing.balancer",
+      "action": { "kind": "openGuidePage", "pageId": "settings-routing", "expandableId": "balancer" }
+    },
+    {
+      "anchorId": "settings.routing.ipv6",
+      "action": { "kind": "openGuidePage", "pageId": "settings-routing", "expandableId": "ipv6" }
+    },
+    {
+      "anchorId": "settings.routing.global_proxy",
+      "action": { "kind": "openGuidePage", "pageId": "settings-routing", "expandableId": "global_proxy" }
+    },
+    {
+      "anchorId": "settings.routing.subscription_route",
+      "action": { "kind": "openGuidePage", "pageId": "settings-routing", "expandableId": "subscription_route" }
+    },
+    {
+      "anchorId": "settings.routing.bypass_lan",
+      "action": { "kind": "openGuidePage", "pageId": "settings-routing", "expandableId": "bypass_lan" }
+    },
+    {
+      "anchorId": "settings.routing.block_quic",
+      "action": { "kind": "openGuidePage", "pageId": "settings-routing", "expandableId": "block_quic" }
+    },
+    {
+      "anchorId": "settings.routing.block_ads",
+      "action": { "kind": "openGuidePage", "pageId": "settings-routing", "expandableId": "block_ads" }
+    },
+    {
+      "anchorId": "settings.debug",
+      "action": { "kind": "openGuidePage", "pageId": "settings-overview" },
+      "tooltip": { "en": "Logs and diagnostics", "ru": "Журналы и диагностика" }
+    },
+    {
+      "anchorId": "settings.about",
+      "action": { "kind": "openGuidePage", "pageId": "settings-overview" },
+      "tooltip": { "en": "About the app", "ru": "О приложении" }
+    }
+  ]
+}

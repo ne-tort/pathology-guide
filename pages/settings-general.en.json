@@ -1,0 +1,185 @@
+{
+  "blocks": [
+    {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "General app preferences."
+        }
+      ],
+      "title": "",
+      "initiallyExpanded": true,
+      "type": "expandable",
+      "id": "intro",
+      "leadBlock": true
+    },
+    {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "App UI language. Changes apply immediately."
+        }
+      ],
+      "title": "Language",
+      "type": "expandable",
+      "id": "locale"
+    },
+    {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Light, dark, black, or system appearance."
+        }
+      ],
+      "title": "Theme",
+      "type": "expandable",
+      "id": "theme"
+    },
+    {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "What happens when you close the window: quit, hide to tray, or ask."
+        }
+      ],
+      "title": "On close",
+      "type": "expandable",
+      "id": "closing"
+    },
+    {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Verbosity of core and app logs."
+        }
+      ],
+      "title": "Log level",
+      "type": "expandable",
+      "id": "log_level"
+    },
+    {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "How often all refreshable profiles/subscriptions are updated in the background. Manually = only via the refresh action."
+        }
+      ],
+      "title": "Update subscriptions",
+      "type": "expandable",
+      "id": "subscriptions_auto_update"
+    },
+    {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Opens the latency check catalog: pick multiple probe URLs, strategy (single / fast average / stress), retries, timeouts, post-connect wait, and url-test interval. Empty selection disables latency checks."
+        }
+      ],
+      "title": "Latency check",
+      "type": "expandable",
+      "id": "connection_test"
+    },
+    {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Opens the IP check catalog: pick multiple IP lookup URLs, sequential or parallel strategy, retries and timeouts. Empty selection disables auto IP checks after connect."
+        }
+      ],
+      "title": "IP check",
+      "type": "expandable",
+      "id": "ip_check"
+    },
+    {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Show live speed in the Android notification."
+        }
+      ],
+      "title": "Display speed in notification",
+      "type": "expandable",
+      "id": "dynamic_notification"
+    },
+    {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Vibration feedback for key actions."
+        }
+      ],
+      "title": "Haptic feedback",
+      "type": "expandable",
+      "id": "haptic"
+    },
+    {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Launch the app when you sign in to the OS."
+        }
+      ],
+      "title": "Start at login",
+      "type": "expandable",
+      "id": "auto_start"
+    },
+    {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Start minimized / in the tray."
+        }
+      ],
+      "title": "Start minimized",
+      "type": "expandable",
+      "id": "silent_start"
+    },
+    {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Ask Android to ignore battery optimizations for a stable VPN."
+        }
+      ],
+      "title": "Disable battery optimization",
+      "type": "expandable",
+      "id": "battery"
+    },
+    {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Cap core memory usage on constrained devices."
+        }
+      ],
+      "title": "Memory limit",
+      "type": "expandable",
+      "id": "memory_limit"
+    },
+    {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Extra diagnostics; may require an app restart."
+        }
+      ],
+      "title": "Debug mode",
+      "type": "expandable",
+      "id": "debug_mode"
+    },
+    {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Persist logs to files under the working directory."
+        }
+      ],
+      "title": "Write logs to files",
+      "type": "expandable",
+      "id": "log_file"
+    }
+  ],
+  "title": "General",
+  "id": "settings-general",
+  "locale": "en"
+}

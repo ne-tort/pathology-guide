@@ -1,0 +1,157 @@
+{
+  "sections": [
+    {
+      "id": "welcome",
+      "icon": { "family": "material", "name": "bolt" },
+      "bold": true,
+      "titles": { "en": "Guide", "ru": "Руководство" },
+      "pages": [
+        {
+          "id": "welcome-overview",
+          "titles": { "en": "Quick start", "ru": "Быстрый старт" }
+        }
+      ]
+    },
+    {
+      "id": "hostings",
+      "icon": { "family": "material", "name": "dns_outlined" },
+      "accent": "success",
+      "titles": { "en": "VPS Hostings", "ru": "VPS Хостинги" },
+      "pages": [
+        {
+          "id": "hostings-overview",
+          "titles": { "en": "VPS Hostings", "ru": "VPS Хостинги" }
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "icon": { "family": "material", "name": "help_outline" },
+      "titles": { "en": "Q&A", "ru": "Вопрос - Ответ" },
+      "pages": [
+        {
+          "id": "faq-overview",
+          "titles": { "en": "Q&A", "ru": "Вопрос - Ответ" }
+        }
+      ]
+    },
+    {
+      "id": "settings",
+      "icon": { "family": "material", "name": "settings_outlined" },
+      "titles": { "en": "Settings", "ru": "Настройки" },
+      "pages": [
+        {
+          "id": "settings-overview",
+          "titles": { "en": "Settings", "ru": "Настройки" }
+        },
+        {
+          "id": "settings-general",
+          "titles": { "en": "General", "ru": "Общие" },
+          "sidebar": false
+        },
+        {
+          "id": "settings-routing",
+          "titles": { "en": "Routing", "ru": "Маршрутизация" },
+          "sidebar": false
+        },
+        {
+          "id": "settings-dns",
+          "titles": { "en": "DNS", "ru": "DNS" },
+          "sidebar": false
+        },
+        {
+          "id": "settings-inbound",
+          "titles": { "en": "Services", "ru": "Службы" },
+          "sidebar": false
+        },
+        {
+          "id": "settings-chain",
+          "titles": { "en": "Chain", "ru": "Цепочка" },
+          "sidebar": false
+        },
+        {
+          "id": "settings-warp",
+          "titles": { "en": "WARP", "ru": "WARP" },
+          "sidebar": false
+        },
+        {
+          "id": "settings-tls-tricks",
+          "titles": { "en": "TLS tricks", "ru": "TLS-трюки" },
+          "sidebar": false
+        }
+      ]
+    },
+    {
+      "id": "servers",
+      "icon": { "family": "material", "name": "cloud_outlined" },
+      "titles": { "en": "Servers", "ru": "Серверы" },
+      "pages": [
+        {
+          "id": "servers-overview",
+          "titles": { "en": "Servers", "ru": "Серверы" }
+        },
+        {
+          "id": "servers-clients",
+          "titles": { "en": "Clients", "ru": "Клиенты" },
+          "sidebar": false
+        },
+        {
+          "id": "servers-create",
+          "titles": { "en": "Creating a server", "ru": "Создание сервера" },
+          "sidebar": false
+        },
+        {
+          "id": "servers-config",
+          "titles": { "en": "Server configuration", "ru": "Настройка сервера" },
+          "sidebar": false
+        },
+        {
+          "id": "settings-tls-tricks",
+          "titles": { "en": "TLS tricks", "ru": "TLS-трюки" },
+          "sidebar": false
+        }
+      ]
+    },
+    {
+      "id": "troubleshooting",
+      "icon": { "family": "material", "name": "report_problem_outlined" },
+      "titles": { "en": "It doesn't work!", "ru": "Не работает!" },
+      "pages": [
+        {
+          "id": "troubleshooting-overview",
+          "titles": { "en": "It doesn't work!", "ru": "Не работает!" }
+        },
+        {
+          "id": "troubleshooting-diagnostics",
+          "titles": { "en": "Diagnostics", "ru": "Диагностика" },
+          "sidebar": false
+        },
+        {
+          "id": "troubleshooting-vps",
+          "titles": { "en": "VPS problems", "ru": "Проблемы VPS" },
+          "sidebar": false
+        },
+        {
+          "id": "troubleshooting-providers",
+          "titles": { "en": "Provider problems", "ru": "Проблемы провайдеров" },
+          "sidebar": false
+        },
+        {
+          "id": "troubleshooting-vpn-service",
+          "titles": { "en": "VPN service problems", "ru": "Проблемы VPN сервиса" },
+          "sidebar": false
+        },
+        {
+          "id": "troubleshooting-ask-help",
+          "titles": { "en": "Ask for help", "ru": "Попросить помощи" },
+          "sidebar": false
+        },
+        {
+          "id": "settings-tls-tricks",
+          "titles": { "en": "TLS tricks", "ru": "TLS-трюки" },
+          "sidebar": false
+        }
+      ]
+    }
+  ]
+}

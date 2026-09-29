@@ -1,0 +1,11 @@
+{
+  "id": "troubleshooting-diagnostics",
+  "locale": "en",
+  "title": "Diagnostics",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "This section is being prepared. Step-by-step connection and server diagnostics will appear here."
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "blocks": [
+    {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Маршрутизация и политика трафика."
+        }
+      ],
+      "title": "",
+      "initiallyExpanded": true,
+      "type": "expandable",
+      "id": "intro",
+      "leadBlock": true
+    },
+    {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Профили маршрутизации и их порядок."
+        }
+      ],
+      "title": "Профили",
+      "type": "expandable",
+      "id": "profiles"
+    },
+    {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Именованные наборы адресов для правил."
+        }
+      ],
+      "title": "Теги",
+      "type": "expandable",
+      "id": "tags"
+    },
+    {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Маршрутизация по приложениям (Android)."
+        }
+      ],
+      "title": "Приложения",
+      "type": "expandable",
+      "id": "apps"
+    },
+    {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Маршрутизация по процессам (desktop)."
+        }
+      ],
+      "title": "Процессы",
+      "type": "expandable",
+      "id": "processes"
+    },
+    {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Как распределять трафик между выходами."
+        }
+      ],
+      "title": "Balancer",
+      "type": "expandable",
+      "id": "balancer"
+    },
+    {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Предпочтение IPv6 для маршрутизируемых соединений."
+        }
+      ],
+      "title": "IPv6",
+      "type": "expandable",
+      "id": "ipv6"
+    },
+    {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Остальной трафик через прокси."
+        }
+      ],
+      "title": "Остальное → прокси",
+      "type": "expandable",
+      "id": "global_proxy"
+    },
+    {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Брать route-правила из подписки, если есть."
+        }
+      ],
+      "title": "Правила подписки",
+      "type": "expandable",
+      "id": "subscription_route"
+    },
+    {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Не проксировать адреса LAN."
+        }
+      ],
+      "title": "Обход LAN",
+      "type": "expandable",
+      "id": "bypass_lan"
+    },
+    {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Блокировать QUIC, чтобы уйти на TCP/TLS."
+        }
+      ],
+      "title": "Блокировать QUIC",
+      "type": "expandable",
+      "id": "block_quic"
+    },
+    {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Блокировать рекламные домены через rulesets."
+        }
+      ],
+      "title": "Блокировать рекламу",
+      "type": "expandable",
+      "id": "block_ads"
+    }
+  ],
+  "title": "Маршрутизация",
+  "id": "settings-routing",
+  "locale": "ru"
+}
