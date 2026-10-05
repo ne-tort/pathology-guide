@@ -100,7 +100,8 @@
             "expandable",
             "video",
             "illustration",
-            "anchorRef"
+            "anchorRef",
+            "hostingTable"
           ]
         }
       }

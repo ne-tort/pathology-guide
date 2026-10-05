@@ -21,6 +21,11 @@
         {
           "id": "hostings-overview",
           "titles": { "en": "VPS Hostings", "ru": "VPS Хостинги" }
+        },
+        {
+          "id": "hostings-example-provider",
+          "titles": { "en": "Example Provider", "ru": "Пример провайдера" },
+          "sidebar": false
         }
       ]
     },

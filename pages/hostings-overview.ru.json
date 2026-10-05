@@ -2,5 +2,84 @@
   "id": "hostings-overview",
   "locale": "ru",
   "title": "VPS Хостинги",
-  "blocks": []
+  "blocks": [
+    {
+      "type": "richText",
+      "spans": [
+        {
+          "text": "Список хостинг-провайдеров, где можно купить дешёвые VPS-серверы. Подойдут даже самые дешёвые тарифы, в среднем от 300 рублей. Выбирая хостинги из списка, вы переходите по нашей реферальной ссылке, помогая развиваться проекту "
+        },
+        { "text": "", "icon": "favorite", "color": "error" }
+      ]
+    },
+    { "type": "heading", "level": 2, "text": "Простые шаги" },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Выберите провайдера из списка и перейдите на сайт услуг",
+        "Зарегистрируйтесь",
+        "Оплатите покупку VPS (не хостинг сайта, а именно VPS-сервер)",
+        "Получите данные для доступа по SSH",
+        {
+          "spans": [
+            { "text": "Введите данные в форме " },
+            { "text": "Быстрый старт", "guidePageId": "welcome-overview" }
+          ]
+        },
+        "Установите VPN-сервер — и готово!"
+      ]
+    },
+    {
+      "type": "callout",
+      "severity": "warning",
+      "text": "Переход по нашей ссылке не увеличивает цену для вас. Список не является рекомендацией, предоставляется как реферальная реклама на общих основаниях."
+    },
+    {
+      "type": "hostingTable",
+      "id": "vps-hostings",
+      "premiumTitle": "Премиум",
+      "columns": [
+        { "key": "name", "title": "Название", "kind": "name" },
+        { "key": "stability", "title": "Стабильность" },
+        { "key": "price", "title": "Стоимость" },
+        { "key": "hardware", "title": "Железо" },
+        { "key": "generosity", "title": "Щедрость" }
+      ],
+      "defaultSort": { "key": "generosity", "ascending": false },
+      "items": [
+        {
+          "id": "example-premium",
+          "name": "Пример Premium",
+          "url": "https://example.com/premium?ref=pathology",
+          "premium": true,
+          "icon": "bolt",
+          "ratings": { "stability": 5, "price": 3.5, "hardware": 5, "generosity": 4 }
+        },
+        {
+          "id": "example-subpage",
+          "name": "Пример с подстраницей",
+          "url": "https://example.com/subpage?ref=pathology",
+          "pageId": "hostings-example-provider",
+          "icon": "dns_outlined",
+          "ratings": { "stability": 4.5, "price": 4, "hardware": 4, "generosity": 5 }
+        },
+        {
+          "id": "example-color",
+          "name": "Пример с цветом",
+          "url": "https://example.com/color?ref=pathology",
+          "color": "#4FC3F7",
+          "icon": "cloud_outlined",
+          "ratings": { "stability": 4, "price": 5, "hardware": 3.5, "generosity": 4.5 }
+        },
+        {
+          "id": "example-avatar",
+          "name": "Пример с аватаром",
+          "url": "https://example.com/avatar?ref=pathology",
+          "avatar": "media/example-avatar.svg",
+          "ratings": { "stability": 3.5, "price": 4.5, "hardware": 4, "generosity": 3 }
+        }
+      ]
+    }
+  ]
 }

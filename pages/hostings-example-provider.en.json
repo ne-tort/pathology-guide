@@ -1,0 +1,40 @@
+{
+  "id": "hostings-example-provider",
+  "locale": "en",
+  "title": "Example Provider",
+  "blocks": [
+    {
+      "type": "callout",
+      "severity": "info",
+      "text": "This is an example provider subpage. Copy it to add details about a specific host."
+    },
+    {
+      "type": "paragraph",
+      "text": "Use this page for a detailed provider description: what makes it good, which plans suit a VPN, and any billing or sign-up quirks."
+    },
+    { "type": "heading", "level": 2, "text": "Why it works" },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Cheap plans — the smallest VPS is enough",
+        "Server is provisioned quickly after payment",
+        "SSH access supported out of the box"
+      ]
+    },
+    { "type": "heading", "level": 2, "text": "How to connect" },
+    {
+      "type": "richText",
+      "spans": [
+        { "text": "After purchase, copy your SSH details and enter them in the " },
+        { "text": "Quick start", "guidePageId": "welcome-overview" },
+        { "text": " form." }
+      ]
+    },
+    {
+      "type": "link",
+      "label": "Open the provider site",
+      "url": "https://example.com/subpage?ref=pathology"
+    }
+  ]
+}

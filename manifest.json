@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "packId": "pathology-guide",
-  "version": "0.23.2",
+  "version": "0.24.0",
   "minAppVersion": "4.1.2",
   "defaultLocale": "en",
   "locales": [
     "en",
     "ru"
   ],
-  "generatedAt": "2026-08-12T00:00:00Z",
+  "generatedAt": "2026-10-05T00:00:00Z",
   "files": {
+    "media/example-avatar.svg": {
+      "sha256": "dfb7be97eeb0205fb5517244a0ceb6d6b33264931138ad37e488b5080092ab31",
+      "size": 489
+    },
     "media/home-connect.svg": {
       "sha256": "2f978b2bd1a0ce86177321a2ae610ee9595249c38368078299cc1589202bb66e",
       "size": 824
@@ -22,13 +26,21 @@
       "sha256": "7f7a90a8ae133b2c1d47020714cc74ef79f8157931bf71618f7b8c2eb342e001",
       "size": 8583
     },
+    "pages/hostings-example-provider.en.json": {
+      "sha256": "4baa06cbdf0feb525112a26dec59c2387f7c8c198aab1e6d6aca55041d78caeb",
+      "size": 1203
+    },
+    "pages/hostings-example-provider.ru.json": {
+      "sha256": "91a326d4304c1759e314ee98806aba6dcccab9b99bc64cedeec030fe12a0d99c",
+      "size": 1651
+    },
     "pages/hostings-overview.en.json": {
-      "sha256": "17cf1e99c91fdf9c8d47669c2a796dc91afd971582b7cce310b577ccd84032bd",
-      "size": 93
+      "sha256": "6fb58eaecabf4cbfb3bbd8c4eb0c6335ea16c895f32105b1b25f8c8ef4d33796",
+      "size": 3007
     },
     "pages/hostings-overview.ru.json": {
-      "sha256": "26a074352910b461f07ea5dd62bfe5eaffc608fc44469b3e69784035e1171cac",
-      "size": 101
+      "sha256": "2a2e60d18fa7916b4b2c362e0351916e00c9ca93fbe4060c9ced66cc3e07bcee",
+      "size": 3635
     },
     "pages/servers-clients.en.json": {
       "sha256": "048ace05cf0686f971a0b42f2ee0af99eac24b1c8184100189c9e23b02b573ac",
@@ -183,12 +195,12 @@
       "size": 5275
     },
     "schema/guide-pack.schema.json": {
-      "sha256": "27eaf9f382b8b0bb6d140d7ff47e01297d2936f05dfc1f7a754192697819db28",
-      "size": 2573
+      "sha256": "daea3c89b2fef6793bdad0d039afc95705659ac3bcddde49e660c1a565ba76c8",
+      "size": 2601
     },
     "toc.json": {
-      "sha256": "3c3db42de2a7d225b81e56cf5473b27842f179fa802acc791a4d88a283036999",
-      "size": 4758
+      "sha256": "f2538677d4405a1721a4cb23a99e96b2bad90be7a951bcb9491571247d6167dd",
+      "size": 4944
     },
     "training/hotspots.json": {
       "sha256": "a01b568a64ec46c9a068ff9b886fd0cd389ecd4650df120e611cecd9ca666fdd",

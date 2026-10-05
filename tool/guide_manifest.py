@@ -43,7 +43,11 @@ def main() -> None:
 
     manifest.pop("contentHash", None)  # legacy placeholder, superseded by `files`
     manifest["files"] = dict(sorted(files.items()))
-    manifest_path.write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    # Explicit LF: pack leaves are eol=lf (.gitattributes) and the client's
+    # leaf-based OTA compares sha256 against raw.githubusercontent bytes, so a
+    # Windows CRLF translation here would desync the descriptor from the repo.
+    with manifest_path.open("w", encoding="utf-8", newline="\n") as f:
+        f.write(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n")
     print(f"manifest.json: {len(files)} leaves")
 
 
