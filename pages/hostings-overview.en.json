@@ -4,31 +4,17 @@
   "title": "VPS Hostings",
   "blocks": [
     {
-      "type": "richText",
+      "type": "paragraph",
+      "text": "A list of hosting providers where you can buy a cheap VPS. Even the cheapest plans work fine, typically from about $3/month."
+    },
+    {
+      "type": "callout",
+      "severity": "success",
       "spans": [
         {
-          "text": "A list of hosting providers where you can buy a cheap VPS. Even the cheapest plans work fine, typically from about $3/month. When you pick a host from this list you go through our referral link, which helps the project grow "
+          "text": "When you pick a host from this list you go through our referral link, which helps the project grow "
         },
         { "text": "", "icon": "favorite", "color": "error" }
-      ]
-    },
-    { "type": "heading", "level": 2, "text": "Simple steps" },
-    {
-      "type": "list",
-      "ordered": true,
-      "items": [
-        "Pick a provider from the list and open its site",
-        "Sign up",
-        "Pay for a VPS (a VPS server, not website hosting)",
-        "Get your SSH access details",
-        {
-          "spans": [
-            { "text": "Enter the details in the " },
-            { "text": "Quick start", "guidePageId": "welcome-overview" },
-            { "text": " form" }
-          ]
-        },
-        "Install the VPN server — and you're done!"
       ]
     },
     {
@@ -39,13 +25,12 @@
     {
       "type": "hostingTable",
       "id": "vps-hostings",
-      "premiumTitle": "Premium",
       "columns": [
         { "key": "name", "title": "Name", "kind": "name" },
         { "key": "stability", "title": "Stability" },
         { "key": "price", "title": "Price" },
-        { "key": "hardware", "title": "Hardware" },
-        { "key": "generosity", "title": "Generosity" }
+        { "key": "hardware", "title": "Hardware", "wideOnly": true },
+        { "key": "generosity", "title": "Generosity", "wideOnly": true }
       ],
       "defaultSort": { "key": "generosity", "ascending": false },
       "items": [
@@ -54,7 +39,6 @@
           "name": "Premium Example",
           "url": "https://example.com/premium?ref=pathology",
           "premium": true,
-          "icon": "bolt",
           "ratings": { "stability": 5, "price": 3.5, "hardware": 5, "generosity": 4 }
         },
         {
@@ -62,23 +46,13 @@
           "name": "Subpage Example",
           "url": "https://example.com/subpage?ref=pathology",
           "pageId": "hostings-example-provider",
-          "icon": "dns_outlined",
           "ratings": { "stability": 4.5, "price": 4, "hardware": 4, "generosity": 5 }
         },
         {
-          "id": "example-color",
-          "name": "Color Example",
-          "url": "https://example.com/color?ref=pathology",
-          "color": "#4FC3F7",
-          "icon": "cloud_outlined",
+          "id": "example-basic",
+          "name": "Basic Example",
+          "url": "https://example.com/basic?ref=pathology",
           "ratings": { "stability": 4, "price": 5, "hardware": 3.5, "generosity": 4.5 }
-        },
-        {
-          "id": "example-avatar",
-          "name": "Avatar Example",
-          "url": "https://example.com/avatar?ref=pathology",
-          "avatar": "media/example-avatar.svg",
-          "ratings": { "stability": 3.5, "price": 4.5, "hardware": 4, "generosity": 3 }
         }
       ]
     }
