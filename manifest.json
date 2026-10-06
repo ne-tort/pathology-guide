@@ -1,7 +1,7 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "packId": "pathology-guide",
-  "version": "0.24.1",
+  "version": "0.25.0",
   "minAppVersion": "4.1.2",
   "defaultLocale": "en",
   "locales": [
@@ -22,21 +22,13 @@
       "sha256": "7f7a90a8ae133b2c1d47020714cc74ef79f8157931bf71618f7b8c2eb342e001",
       "size": 8583
     },
-    "pages/hostings-example-provider.en.json": {
-      "sha256": "4baa06cbdf0feb525112a26dec59c2387f7c8c198aab1e6d6aca55041d78caeb",
-      "size": 1203
-    },
-    "pages/hostings-example-provider.ru.json": {
-      "sha256": "91a326d4304c1759e314ee98806aba6dcccab9b99bc64cedeec030fe12a0d99c",
-      "size": 1651
-    },
     "pages/hostings-overview.en.json": {
-      "sha256": "cb7d0ed58ce4cf689c90e206365048032e7e6b875f8a507cacd2e60aa3a08195",
-      "size": 2089
+      "sha256": "a9f8c512c29681655386dae388461ff6ec76ceb876ae1d92dabdcc7a4d91eda2",
+      "size": 1855
     },
     "pages/hostings-overview.ru.json": {
-      "sha256": "d7967a8b61a32f83427598a98fa879e6fcffd0116362658cd9c173de62fceab1",
-      "size": 2499
+      "sha256": "f8558b2416f56bf354ba79561f02352b14e8c9a839ecca5e8c54e6d091f634de",
+      "size": 2226
     },
     "pages/servers-clients.en.json": {
       "sha256": "048ace05cf0686f971a0b42f2ee0af99eac24b1c8184100189c9e23b02b573ac",
@@ -195,8 +187,8 @@
       "size": 2601
     },
     "toc.json": {
-      "sha256": "f2538677d4405a1721a4cb23a99e96b2bad90be7a951bcb9491571247d6167dd",
-      "size": 4944
+      "sha256": "c453795bc63b6815e00cb9b14c99dac9f85f58419b36dd2308724318ef389e3c",
+      "size": 5804
     },
     "training/hotspots.json": {
       "sha256": "a01b568a64ec46c9a068ff9b886fd0cd389ecd4650df120e611cecd9ca666fdd",

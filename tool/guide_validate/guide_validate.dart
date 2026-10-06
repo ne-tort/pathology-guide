@@ -309,6 +309,7 @@ void _validateHostingTable(
   // Columns: at least one, each with key + title; kind defaults to "rating".
   final columns = b['columns'];
   final columnKeys = <String>{};
+  final sortableKeys = <String>{};
   var nameColumns = 0;
   if (columns is! List || columns.isEmpty) {
     errors.add('$ctx: hostingTable.columns must be a non-empty list');
@@ -319,10 +320,11 @@ void _validateHostingTable(
       final kind = c['kind']?.toString() ?? 'rating';
       if (key.isEmpty) errors.add('$ctx: hostingTable column missing key');
       if (title.isEmpty) errors.add('$ctx: hostingTable column "$key" missing title');
-      if (kind != 'name' && kind != 'rating') {
-        errors.add('$ctx: hostingTable column "$key" kind must be name|rating');
+      if (kind != 'name' && kind != 'rating' && kind != 'payments') {
+        errors.add('$ctx: hostingTable column "$key" kind must be name|rating|payments');
       }
       if (kind == 'name') nameColumns++;
+      if (kind == 'name' || kind == 'rating') sortableKeys.add(key);
       if (key.isNotEmpty && !columnKeys.add(key)) {
         errors.add('$ctx: hostingTable duplicate column key "$key"');
       }
@@ -332,12 +334,12 @@ void _validateHostingTable(
     }
   }
 
-  // defaultSort.key must reference a column.
+  // defaultSort.key must reference a sortable (name/rating) column.
   final sort = b['defaultSort'];
   if (sort is Map) {
     final sk = sort['key']?.toString() ?? '';
-    if (sk.isNotEmpty && columnKeys.isNotEmpty && !columnKeys.contains(sk)) {
-      errors.add('$ctx: hostingTable.defaultSort.key "$sk" not in columns');
+    if (sk.isNotEmpty && sortableKeys.isNotEmpty && !sortableKeys.contains(sk)) {
+      errors.add('$ctx: hostingTable.defaultSort.key "$sk" not a sortable column');
     }
   }
 
@@ -388,6 +390,19 @@ void _validateHostingTable(
         }
         if (columnKeys.isNotEmpty && !columnKeys.contains(e.key.toString())) {
           errors.add('$ctx: hostingTable item "$id" rating key "${e.key}" not a column');
+        }
+      }
+    }
+    final payments = it['payments'];
+    if (payments != null) {
+      if (payments is! List) {
+        errors.add('$ctx: hostingTable item "$id" payments must be a list');
+      } else {
+        for (final p in payments) {
+          final code = p?.toString().trim() ?? '';
+          if (code.isEmpty || code.length > 8) {
+            errors.add('$ctx: hostingTable item "$id" invalid payment code "$p"');
+          }
         }
       }
     }

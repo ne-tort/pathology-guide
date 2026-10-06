@@ -27,6 +27,7 @@
       "id": "vps-hostings",
       "columns": [
         { "key": "name", "title": "Название", "kind": "name" },
+        { "key": "payments", "title": "Оплата", "kind": "payments" },
         { "key": "stability", "title": "Стабильность" },
         { "key": "price", "title": "Стоимость" },
         { "key": "hardware", "title": "Железо", "wideOnly": true },
@@ -35,24 +36,18 @@
       "defaultSort": { "key": "generosity", "ascending": false },
       "items": [
         {
-          "id": "example-premium",
-          "name": "Пример Premium",
-          "url": "https://example.com/premium?ref=pathology",
-          "premium": true,
-          "ratings": { "stability": 5, "price": 3.5, "hardware": 5, "generosity": 4 }
+          "id": "aeza-ru",
+          "name": "Aeza.ru",
+          "url": "https://aeza.ru/?ref=456184",
+          "payments": ["RUB"],
+          "ratings": { "stability": 4, "price": 4, "hardware": 5, "generosity": 5 }
         },
         {
-          "id": "example-subpage",
-          "name": "Пример с подстраницей",
-          "url": "https://example.com/subpage?ref=pathology",
-          "pageId": "hostings-example-provider",
-          "ratings": { "stability": 4.5, "price": 4, "hardware": 4, "generosity": 5 }
-        },
-        {
-          "id": "example-basic",
-          "name": "Пример базовый",
-          "url": "https://example.com/basic?ref=pathology",
-          "ratings": { "stability": 4, "price": 5, "hardware": 3.5, "generosity": 4.5 }
+          "id": "aeza-net",
+          "name": "Aeza.net",
+          "url": "https://aeza.net/?ref=813129",
+          "payments": ["USD", "BTC"],
+          "ratings": { "stability": 4, "price": 4, "hardware": 5, "generosity": 5 }
         }
       ]
     }
