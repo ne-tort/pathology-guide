@@ -1,14 +1,14 @@
 {
   "schemaVersion": 3,
   "packId": "pathology-guide",
-  "version": "0.25.0",
+  "version": "0.26.0",
   "minAppVersion": "4.1.2",
   "defaultLocale": "en",
   "locales": [
     "en",
     "ru"
   ],
-  "generatedAt": "2026-10-06T00:00:00Z",
+  "generatedAt": "2026-10-09T00:00:00Z",
   "files": {
     "media/home-connect.svg": {
       "sha256": "2f978b2bd1a0ce86177321a2ae610ee9595249c38368078299cc1589202bb66e",
@@ -79,12 +79,12 @@
       "size": 1735
     },
     "pages/settings-general.en.json": {
-      "sha256": "fd009db816cf675d274f21b393020fb2d6aa9d3130f902a394a960fe993acd04",
-      "size": 4356
+      "sha256": "d8358c3fa37d505c9dec16cefc4a06a0d13b28cc194b2047eb2022f616431ed9",
+      "size": 4279
     },
     "pages/settings-general.ru.json": {
-      "sha256": "efe49c1870be4636a085c5d59bef4db0cd941fb4cd115fafa3b9aa6e56a60dda",
-      "size": 6525
+      "sha256": "9345489878c195eabde1f93f917c3547dc00b6767c377572074be23b2a826954",
+      "size": 6523
     },
     "pages/settings-inbound.en.json": {
       "sha256": "50f7f4b1ac73576f0504cb3f0398c663f7fdc40e89a2119ba6f57416c7d2e854",
@@ -191,8 +191,8 @@
       "size": 5804
     },
     "training/hotspots.json": {
-      "sha256": "a01b568a64ec46c9a068ff9b886fd0cd389ecd4650df120e611cecd9ca666fdd",
-      "size": 9426
+      "sha256": "02b89531337a98308a4fd37d28ae547883d551322d18833c8d651218dd2ef3bb",
+      "size": 9256
     }
   }
 }

@@ -94,10 +94,10 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Show live speed in the Android notification."
+          "text": "One switch for the Android notification: connection status and speed. When off nothing is shown — the tunnel keeps running in the background."
         }
       ],
-      "title": "Display speed in notification",
+      "title": "Show status in notification",
       "type": "expandable",
       "id": "dynamic_notification"
     },
@@ -138,23 +138,12 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Ask Android to ignore battery optimizations for a stable VPN."
+          "text": "Opens the system battery-optimization screen. Lifting the restrictions stops Android from freezing the tunnel in the background."
         }
       ],
-      "title": "Disable battery optimization",
+      "title": "Configure battery optimization",
       "type": "expandable",
       "id": "battery"
-    },
-    {
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "Cap core memory usage on constrained devices."
-        }
-      ],
-      "title": "Memory limit",
-      "type": "expandable",
-      "id": "memory_limit"
     },
     {
       "blocks": [

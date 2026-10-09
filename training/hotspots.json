@@ -64,10 +64,6 @@
       "action": { "kind": "openGuidePage", "pageId": "settings-general", "expandableId": "battery" }
     },
     {
-      "anchorId": "settings.general.memory_limit",
-      "action": { "kind": "openGuidePage", "pageId": "settings-general", "expandableId": "memory_limit" }
-    },
-    {
       "anchorId": "settings.general.debug_mode",
       "action": { "kind": "openGuidePage", "pageId": "settings-general", "expandableId": "debug_mode" }
     },
