@@ -110,7 +110,7 @@
         {
           "type": "callout",
           "severity": "info",
-          "text": "Best set:\n1. vless reality xtls vision - quality standard, best camouflage as legitimate traffic\n2. Hysteria2 - excellent choice, quic channel with obfuscation\n3. Pathology - our development. A flexible protocol that can use many different techniques"
+          "text": "Best set:\n1. vless reality xtls vision - quality standard, best camouflage as legitimate traffic\n2. Hysteria2 - excellent choice, quic channel with obfuscation\n3. PathologyWG - our development. A flexible protocol that can use many different techniques"
         }
       ]
     },
@@ -123,7 +123,6 @@
           "ordered": true,
           "items": [
             "VLESS",
-            "Pathology",
             "PathologyWG",
             "NaiveProxy",
             "TrustTunnel",

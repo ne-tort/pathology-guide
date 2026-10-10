@@ -1,26 +1,26 @@
 {
   "schemaVersion": 3,
   "packId": "pathology-guide",
-  "version": "0.26.0",
+  "version": "0.26.1",
   "minAppVersion": "4.1.2",
   "defaultLocale": "en",
   "locales": [
     "en",
     "ru"
   ],
-  "generatedAt": "2026-10-09T00:00:00Z",
+  "generatedAt": "2026-10-10T00:00:00Z",
   "files": {
     "media/home-connect.svg": {
       "sha256": "2f978b2bd1a0ce86177321a2ae610ee9595249c38368078299cc1589202bb66e",
       "size": 824
     },
     "pages/faq-overview.en.json": {
-      "sha256": "b61854c6067f1a34a79d6eab21835a729ef8bc7cb79b26d3e2a1d43d7fca1cc7",
-      "size": 5829
+      "sha256": "fc2fe0307151e2ecd2aa332d49dc871c81406d19a5febd04289871e2a36b3999",
+      "size": 5806
     },
     "pages/faq-overview.ru.json": {
-      "sha256": "7f7a90a8ae133b2c1d47020714cc74ef79f8157931bf71618f7b8c2eb342e001",
-      "size": 8583
+      "sha256": "f1847114248f14ba34270cf0c0077a47ee42e8373a46c502381cafd30fc04774",
+      "size": 8560
     },
     "pages/hostings-overview.en.json": {
       "sha256": "a9f8c512c29681655386dae388461ff6ec76ceb876ae1d92dabdcc7a4d91eda2",
